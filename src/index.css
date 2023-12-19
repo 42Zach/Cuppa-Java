@@ -1,0 +1,152 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --main-font-color: rgb(71, 59, 59);
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.HomeBG {
+  background-image: url(CoffeeSteamingBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* body {
+  background-image: url(CoffeeSteamingBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* Cuppa Joe Logo */
+
+.FirstNav {
+  position: absolute;
+  background-color: none;
+  height: 112px;
+  width: 100%;
+  z-index: 2;
+}
+
+.OuterDivCJLogo {
+  text-align: center;
+}
+
+.FirstCJLogo {
+  font-family: 'Apple Chancery', cursive;
+  font-size: 80px;
+  font-weight: 500;
+  margin: 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke
+}
+
+/* Background Image */
+
+/* .CJHomeBG > img {
+  height: 100%;
+  width: 100%;
+} 
+
+<div className='CJHomeBG'>
+  <img src={CoffeeSteamingBG} alt='Coffee Steaming' />
+</div>
+
+
+*/
+
+/* Slogan & Nav */
+
+.slogan {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 85%;
+}
+
+.slogan h1 {
+  font-family: 'Didot', serif;
+  font-size: 35px;
+  font-weight: 100;
+  color: whitesmoke;
+}
+
+.IndexNav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 150%;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.IndexNav li a {
+  list-style-type: none;
+  color: whitesmoke;
+  margin: 5px 10px;
+}
+
+.IndexNav li a:hover, .IndexNav li a:active {
+  color: rgb(166, 166, 166);
+  transition: 0.5s;
+}
+
+.CartIcon {
+  filter: invert(100%) sepia(1%) saturate(183%) hue-rotate(9deg) brightness(113%) contrast(92%);
+  height: 20px;
+}
+
+.FunNew{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.Funul{
+  padding: 0;
+}
+.Funli{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 50px;
+  &:nth-child(1) button {
+    background: #EFBC9B;
+  }
+  &:nth-child(2) button {
+    background: #ac6d42;
+  }
+  &:nth-child(3) button {
+    background: #4C2E05;
+  }
+}
+.FunBtn {
+  position: relative;
+  background: rebeccapurple;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border:5px solid white;
+  color: white;
+  font-family: 'Apple Chancery', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.F1, .F2, .F3 {
+  text-decoration: none;
+  color: whitesmoke;
+}

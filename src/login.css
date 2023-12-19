@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --main-font-color: rgb(71, 59, 59);
+  --secondary-font-color: #262626;
+}
+    
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+  /* WARNING NO SCROLL*/
+body {
+  overflow: hidden;
+}
+
+.LoginBG {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-image: url(CoffeeSteamingBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: 0.45;
+  z-index: 1;
+}
+
+.LoginPage1 {
+  z-index: 2;
+  display: flex;
+  height: 92.3vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginPage2 {
+  z-index: 2;
+  height: 70vh;
+  width: 20vw;
+  background-color: whitesmoke;
+  opacity: 1;
+  color: var(--secondary-font-color);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 6px rgb(146, 146, 146);
+}
+
+.LoginPage2 h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px
+}
+
+.LoginUsername {
+  padding-top: 35px;
+}
+
+.LoginPassword {
+  padding-top: 20px;
+}
+
+.LoginUsername, .LoginPassword {
+  width: 15vw;
+  margin: auto;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  padding-bottom: 10px;
+}
+
+.UsernameCred, .PasswordCred {
+  margin-top: 10px;
+  margin-left: 5px
+}
+
+input[name='username'], input[name='password'], textarea {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  width: 13vw;
+}
+
+.Person {
+  vertical-align: middle;
+  height: 30px;
+  width: auto;
+  margin-right: 7px;
+  padding-bottom: 5px;
+}
+
+.Lock {
+  vertical-align: middle;
+  height: 27px;
+  width: auto;
+  margin-right: 7px;
+  padding-bottom: 5px;
+}
+
+.textDanger {
+  color: red;
+}
+
+.LoginSubmit {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.LoginSubmit input {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(to right, var(--secondary-font-color) , #4C2E05);
+  border: none;
+  outline: none;
+  border-radius: 45px;
+  height: 45px;
+  width: 25vh;
+  letter-spacing: 2px;
+}
+
+.LoginSubmit input:hover {
+  transition: 0.5s;
+  background-image: linear-gradient(to left, var(--secondary-font-color) , #4C2E05);
+}
+
+.SignupFromLogin {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px
+}

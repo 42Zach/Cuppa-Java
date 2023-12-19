@@ -1,0 +1,83 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.otherNB {
+    width: 100%;
+    height: 90px;
+    background-color: whitesmoke;
+    box-shadow: -5px 5px 5px rgb(199, 199, 199);
+}
+
+.otherNBUl {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    display: flex;
+}
+
+.linkA {
+    position: relative;
+    display: block;
+    margin: 20px 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.linkA:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.linkA:after {
+    content: "";
+    position: absolute;
+    top: 1.6px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.linkA:hover {
+    color: #fff;
+}
+
+.linkA:hover:before {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.linkA:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.CJLogo {
+    font-family: 'Apple Chancery', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 5px 15px;
+    margin-bottom: px;
+}
