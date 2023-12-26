@@ -11,3 +11,37 @@
   margin: 0;
   padding: 0;
 }
+
+.SpecialsBG {
+  Height: 300px;
+  width: 100%;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.SpecialsLogo {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(216, 216, 216);
+}
+
+.SpecialsBG > img {
+  height: auto;
+  width: 100%;
+}
+
+.SpecialsTitle-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.SpecialsTitle-2 {
+  font-weight: 600;
+  color: var(--main-font-color);
+  font-size: 45px;
+  padding-top: 25px;
+}
