@@ -18,12 +18,6 @@
   background-repeat: no-repeat;
 }
 
-/* body {
-  background-image: url(CoffeeSteamingBG.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 /* Cuppa Joe Logo */
 
 .FirstNav {
@@ -47,20 +41,6 @@
   margin-right: auto;
   color: whitesmoke
 }
-
-/* Background Image */
-
-/* .CJHomeBG > img {
-  height: 100%;
-  width: 100%;
-} 
-
-<div className='CJHomeBG'>
-  <img src={CoffeeSteamingBG} alt='Coffee Steaming' />
-</div>
-
-
-*/
 
 /* Slogan & Nav */
 
@@ -150,3 +130,6 @@
   text-decoration: none;
   color: whitesmoke;
 }
+
+/* Animation On Load */
+

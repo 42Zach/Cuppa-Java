@@ -13,10 +13,17 @@
 }
 
 .SpecialsBG {
-  Height: 300px;
   width: 100%;
-  overflow-y: hidden;
-  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.SpecialsPicture {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
 }
 
 .SpecialsLogo {
@@ -28,11 +35,25 @@
   font-weight: 800;
   color: rgb(216, 216, 216);
   font-family: 'Apple Chancery', cursive;
+  width:16ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-.SpecialsBG > img {
-  height: auto;
-  width: 100%;
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 .SpecialsTitle-1 {

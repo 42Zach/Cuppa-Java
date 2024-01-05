@@ -1,14 +1,13 @@
 import './menu.css'
-import './NavBar.css'
 import OtherNavbar from './otherNavbar.jsx'
-import SpecialsPicture from './SpecialsImage.jpg'
+import SpecialsPicture from './CoffeeSplash.jpg'
 
 function Menu() {
     return (
-        <>
-            <OtherNavbar />
-            <SpecialsBG />
-        </>
+       <>
+          <OtherNavbar />
+          <SpecialsBG />
+       </>
     )
 }
 
@@ -16,14 +15,9 @@ function SpecialsBG() {
     return (
         <>
             <div className="SpecialsBG">
-                <img src={SpecialsPicture} alt='' className='SpecialsPicture' />
-                <div className="SpecialsLogo"><em>The Art Of Coffee Elevated</em></div>
-                <div className="container">
-                    <h1>Coffee Is Full of
-                        <span className="txt-type" ></span>
-                    </h1>
-                </div>
+                <div className="SpecialsLogo">The Royal Taste.</div>
             </div>
+            <img src={SpecialsPicture} alt='' className='SpecialsPicture' />
             <div className="SpecialsTitle-1">
                 <span className='SpecialsTitle-2'>Specials</span>
             </div>
@@ -32,5 +26,6 @@ function SpecialsBG() {
     )
 }
 
+/* Coffee is full of Joy, Love, Peace, Laughter */
 
 export default Menu
