@@ -25,8 +25,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 800;
   color: rgb(216, 216, 216);
+  font-family: 'Apple Chancery', cursive;
 }
 
 .SpecialsBG > img {
