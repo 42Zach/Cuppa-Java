@@ -102,7 +102,7 @@
   list-style-type: none;
   margin: 0 50px;
   &:nth-child(1) button {
-    background: #EFBC9B;
+    background: #3d2413;
   }
   &:nth-child(2) button {
     background: #ac6d42;
@@ -131,5 +131,9 @@
   color: whitesmoke;
 }
 
-/* Animation On Load */
+.Cart {
+  height: 30px;
+  width: auto;
+}
 
+/* Animation On Load */
